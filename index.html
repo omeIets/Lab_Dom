@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mastering the DOM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header class="navbar">
+        <div class="logo">DOM_LAB//</div>
+        <div class="controls">
+            <button id="btn-tema" class="btn">
+                <span id="tema-icone">☀️</span> 
+                <span id="tema-texto">Modo Escuro</span>
+            </button>
+        </div>
+    </header>
+
+    <main class="container">
+        <section class="action-bar">
+            <h1>Painel de Controle</h1>
+            <p>Gerencie os elementos do ecossistema dinamicamente.</p>
+            <button id="btn-adicionar" class="btn btn-success">+ Adicionar Novo Bloco</button>
+        </section>
+
+        <div class="grid-container" id="grid-elementos">
+            
+            <div class="card" data-id="1">
+                <button class="btn-deletar" title="Remover este módulo">×</button>
+                <h3>Módulo Inicial 01</h3>
+                <p>Elemento estático renderizado diretamente pelo arquivo HTML de origem.</p>
+            </div>
+            
+            <div class="card" data-id="2">
+                <button class="btn-deletar" title="Remover este módulo">×</button>
+                <h3>Módulo Inicial 02</h3>
+                <p>Elemento estático renderizado diretamente pelo arquivo HTML de origem.</p>
+            </div>
+
+            <div class="card" data-id="3">
+                <button class="btn-deletar" title="Remover este módulo">×</button>
+                <h3>Módulo Inicial 03</h3>
+                <p>Elemento estático renderizado diretamente pelo arquivo HTML de origem.</p>
+            </div>
+
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
