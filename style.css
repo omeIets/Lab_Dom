@@ -13,7 +13,6 @@
     --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-/* Classe que a Pessoa 4 vai ativar via JavaScript */
 body.dark-theme {
     --bg-global: #0a0f1d;
     --bg-card: #121826;
