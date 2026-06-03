@@ -34,8 +34,8 @@ function alternarTextosTema() {
 // PESSOA 4: A ESTÉTICA DINÂMICA (Manipulando CSS)
 // Missão: Alternar a classe do corpo da página para ativar o Dark Mode.
 // --------------------------------------------------------------------
-btnAdicionar.style.backgroundColor = "#00ff66";
-btnAdicionar.style.color = "#0a0f1d";
+//btnAdicionar.style.backgroundColor = "#00ff66";
+//btnAdicionar.style.color = "#0a0f1d";
 
 function alternarVisualTema() {
     document.body.classList.toggle('dark-theme');
